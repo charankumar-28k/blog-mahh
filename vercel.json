@@ -4,11 +4,6 @@
   "installCommand": "npm install",
   "outputDirectory": ".output/public",
   "framework": null,
-  "functions": {
-    ".output/server/**/*.mjs": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
